@@ -7,12 +7,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Cabin">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <title>Kathryn Kingsberry Web Developer</title>
 
       <style type="text/css">
           .jumbotron {
           background-image: url("images/computer.jpg");
+          background-color: #ffffff;
           color: #ffffff;
           margin-bottom: 0;`enter code here`
           min-height: 50%;
@@ -21,13 +24,14 @@
           -webkit-background-size: cover;
           background-size: cover;
           text-align: center;
-          height: 650px;
+          
         }
+
 
           .btn {
               margin-top: 2%;
           }
-      }
+      
 
           @media screen and (max-width: 800px) {
            .jumbotron {
@@ -37,10 +41,10 @@
       </style>
 
   </head>
-  <body>
+  <body style="padding-right: 0%;">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
       
-      <a href="#home" class="navbar-brand">Logo</a> 
+      <a href="#home" class="navbar-brand"><i class="fas fa-holly-berry"></i></a> 
       <!--navbar-brand class ensures this link is placed in correct position for clickable logo to direct to 'Home' page-->
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
         <span class="navbar-toggler-icon"></span>
@@ -56,7 +60,7 @@
      </nav>
   
     <div class="jumbotron jumbotron-fluid" id="home">
-      <div  style="padding-top: 13%;">
+      <div  style="padding-top: 15%; padding-bottom: 15%;">
           <h1 class="display-4">Hi there, I'm <span style="color: #800080;">Kathryn Kingsberry</span>.</h1>
           <h1 class="display-4">I'm a fullstack web developer.</h1>
           <a class="btn btn-dark btn-outline-light btn-lg" href="#about" role="button">See My Work</a>
@@ -65,51 +69,210 @@
 
 
 
-    <div style="margin-top: 5%;">
-      <p id="about"><span style="color: green; font-weight: bold;">What is Lorem Ipsum?
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+    <div class="wrapper" style="margin-top: 1%;">
+        <div id="about">
+            <br></br>
+            <div style="border-bottom: solid purple; margin-left: 40%; margin-right: 40%; margin-bottom: 5%; height: 100px;">
+                <br><p style="text-align: center; font-family: 'Baloo+Thambi|Cabin', serif; font-size: 3em;">ABOUT</p></br>
+                <br></br>
+            </div>
+        </div>
+    <div class="row" style="background-color: #fff;">
+          <div class="col" style="margin-left: 15%; margin-right: -6%;">    <img src="images/res.jpg">
+              <br><h2 style="margin-left: 9%;">Responsive</h2></br>
+              <p style="margin-top: -5%;">My websites will work on all devices:</p> 
+              <p style="margin-top: -5%;">desktops, tablets and phones.</p>
+          </div>
+          <div class="col" style="margin-right: -9%; margin-bottom: 5%;">
+              <img src="images/intuit.jpg">
+              <br><h2 style="padding-top: 16.5%; margin-left: 9%;">Intuitive</h2></br>
+              <p style="margin-top: -5%;">My UI/UX designs provide a very</p> 
+              <p style="margin-top: -5%;">user friendly experience.</p>
+          </div>
+          <div class="col" style="margin-right: 0.5%;">
+              <img src="images/robot.jpg">
+              <br><h2 style="padding-top: 12.5%; margin-left: 9%;">Dynamic</h2></br>
+              <p style="margin-top: -5%;">I enjoy using JavaScript, JQuery</p> 
+              <p style="margin-top: -5%;">and Angular to add functionality.</p>
+          </div>
+      </div>
+      <div class="row" style="padding-top: 5%; padding-bottom: 5%;background-color: #D3D3D3;">
+          <div class="col" style="margin-left: 10%; margin-right: 0%;"><img src="images/Kingsberry12.jpg"></div>
+          <div class="col" style="margin-right: 1%; margin-left: -40%; background-color: #D3D3D3; max-width: 100%;">
+          <div class="container">
+      <div class="row" style="padding-top: 8%;">
+        <div class="col-md-12">
+            <div class="text-center text-uppercase">
+                <h2>My Strengths</h2>
+            </div>
+            <!-- //.text-center -->
+            
+            <div class="column-chart">
+                <div class="legend legend-left hidden-xs">
+                    <h3 class="legend-title">ME</h3>
+                </div>
+                <!-- //.legend -->
+            
+                <div class="legend legend-right hidden-xs">
+                    <div class="item">
+                        <h4>Superhero</h4>
+                    </div>
+                    <!-- //.item -->
+            
+                    <div class="item">
+                        <h4>Preety Good</h4>
+                    </div>
+                    <!-- //.item -->
+            
+                    <div class="item">
+                        <h4>Good</h4>
+                    </div>
+                    <!-- //.item -->
+            
+                    <div class="item">
+                        <h4>Newbie</h4>
+                    </div>
+                    <!-- //.item -->
+                </div>
+                <!-- //.legend -->
+            
+                <div class="chart clearfix">
+                    <div class="item">
+                        <div class="bar">
+                            <span class="percent">92%</span>
+            
+                            <div class="item-progress" data-percent="92">
+                                <span class="title">HTML/CSS</span>
+                            </div>
+                            <!-- //.item-progress -->
+                        </div>
+                        <!-- //.bar -->
+                    </div>
+                    <!-- //.item -->
+            
+                    <div class="item">
+                        <div class="bar">
+                            <span class="percent">70%</span>
+            
+                            <div class="item-progress" data-percent="70">
+                                <span class="title">JavaScript</span>
+                            </div>
+                            <!-- //.item-progress -->
+                        </div>
+                        <!-- //.bar -->
+                    </div>
+                    <!-- //.item -->
 
-      Why do we use it?
-      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    <div class="item">
+                        <div class="bar">
+                            <span class="percent">70%</span>
+            
+                            <div class="item-progress" data-percent="70">
+                                <span class="title">JQuery</span>
+                            </div>
+                            <!-- //.item-progress -->
+                        </div>
+                        <!-- //.bar -->
+                    </div>
+                    <!-- //.item -->
+
+                    <div class="item">
+                        <div class="bar">
+                            <span class="percent">68%</span>
+            
+                            <div class="item-progress" data-percent="68">
+                                <span class="title">Angular</span>
+                            </div>
+                            <!-- //.item-progress -->
+                        </div>
+                        <!-- //.bar -->
+                    </div>
+                    <!-- //.item -->
+            
+                    <div class="item">
+                        <div class="bar">
+                            <span class="percent">80%</span>
+            
+                            <div class="item-progress" data-percent="80">
+                                <span class="title">WordPress</span>
+                            </div>
+                            <!-- //.item-progress -->
+                        </div>
+                        <!-- //.bar -->
+                    </div>
+                    <!-- //.item -->
+                    <div class="item">
+                        <div class="bar">
+                            <span class="percent">77%</span>
+            
+                            <div class="item-progress" data-percent="77">
+                                <span class="title">SQL/MySQL</span>
+                            </div>
+                            <!-- //.item-progress -->
+                        </div>
+                        <!-- //.bar -->
+                    </div>
+                    <!-- //.item -->
+            
+                    <div class="item">
+                        <div class="bar">
+                            <span class="percent">58%</span>
+            
+                            <div class="item-progress" data-percent="58">
+                                <span class="title">Node.js</span>
+                            </div>
+                            <!-- //.item-progress -->
+                        </div>
+                        <!-- //.bar -->
+                    </div>
+                    <!-- //.item -->
+            
+                    <div class="item">
+                        <div class="bar">
+                            <span class="percent">67%</span>
+            
+                            <div class="item-progress" data-percent="67">
+                                <span class="title">PHP</span>
+                            </div>
+                            <!-- //.item-progress -->
+                        </div>
+                        <!-- //.bar -->
+                    </div>
+                    <!-- //.item -->
+                </div>
+                <!-- //.chart -->
+            </div>
+            <!-- //.column-chart -->
+        </div>
+        <!-- //.col-md-6 -->
+    </div>
+    <!-- //.row -->
+</div>
+<!-- //.container -->
+        </div>
+      </div>
+      <div class="row" id="portfolio">
+          <div class="col">Project 1</div>
+          <div class="col">Project 2</div>
+          <div class="col">Project 3</div>
+          <div class="col">Project 4</div>
+          <div class="col"><span style="color: #800080; font-weight: bold;">What is Lorem Ipsum?
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span>
+          </div>
+      </div>
+      <div class="row" id="contact">
+          <div class="col"><span style="color: red; font-weight: bold;">What is Lorem Ipsum?
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+
+          Why do we use it?
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
 
-      Where does it come from?
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          Where does it come from?
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-      <p id="portfolio"><span style="color: #800080; font-weight: bold;"">What is Lorem Ipsum?
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
-
-      Why do we use it?
-      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-      Where does it come from?
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-      <p id="contact"><span style="color:red; font-weight: bold;">What is Lorem Ipsum?
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
-
-      Why do we use it?
-      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-      Where does it come from?
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-      <p>What is Lorem Ipsum?
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-      Why do we use it?
-      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-      Where does it come from?
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</div>
+      </div>
     </div>
 
 <!--Footer Start-->
@@ -131,5 +294,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
