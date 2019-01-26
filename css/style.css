@@ -48,9 +48,9 @@ html, body {
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 body {
-    background-color: #f2f2f2;
-    color: #000;
-    font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 
 .column-chart {
@@ -239,9 +239,7 @@ body {
   transform: translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 
-/*body {
-	background-color: #fff;
-}*/
+
 
 @media (min-width: 360px) {
   .column-chart > .chart > .item > .bar > .item-progress > .title {
