@@ -23,9 +23,28 @@ body {
           
         }
 
+  .marginfive {
+          margin-top: -5%;
+  }
+
   .btn {
-              margin-top: 2%;
+          margin-top: 2%;
           }
+
+  .padding {
+      
+        padding-top: 15%; 
+        padding-bottom: 15%;
+  }
+   
+
+  .abouttop {
+    color: purple; 
+    text-align: center; 
+    margin-bottom: -2%; 
+    font-family: 'Pacifico', serif; 
+    font-size: 3em;"
+  }
 
 #footer {
 
